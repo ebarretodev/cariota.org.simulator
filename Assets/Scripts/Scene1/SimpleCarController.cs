@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class SimpleCarController : MonoBehaviour
 {
-    public void GetInput(){
+    private void GetInput(){
         m_horizontalInput = Input.GetAxis("Horizontal");
         m_verticalInput = Input.GetAxis("Vertical");
         m_space = Input.GetKey(KeyCode.Space);
 
+    }
+
+    public void SetSpeed( float _ratioSpeedToSet) {
+        motorForce = motorForceDefault / _ratioSpeedToSet;
+    }
+
+    public void ForceCarBrake(){
+        m_forcedBrake = true;
+    }
+
+    public void ReleaseForceCarBrake() {
+        m_forcedBrake = false; 
     }
     private void Steer(){
         m_steeringAngle = maxSteeringAngle * m_horizontalInput;
@@ -23,7 +35,7 @@ public class SimpleCarController : MonoBehaviour
     }
     private void Brake(){
         float _currentBrake = 0;
-        if(m_space){
+        if(m_space || m_forcedBrake){
             _currentBrake = brakeForce;
         }else{
             _currentBrake = 0;
@@ -51,6 +63,9 @@ public class SimpleCarController : MonoBehaviour
         _transform.rotation = _quat;
     }
 
+    private void Start(){
+        SetSpeed(1f);
+    }
     private void FixedUpdate() {
         GetInput();
         Steer();
@@ -64,12 +79,14 @@ public class SimpleCarController : MonoBehaviour
     private float m_verticalInput;
     private bool m_space;
     private float m_steeringAngle;
+    private bool m_forcedBrake = false;
 
     public WheelCollider frontRightW, frontLeftW, backRightW, backLeftW;
     public Transform frontRightT, frontLeftT, backRightT, backLeftT;
     public float maxSteeringAngle = 30;
-    public float motorForce = 750;
-    public float brakeForce = 500;
+    public float motorForceDefault = 500;
+    private float motorForce;
+    public float brakeForce = 5000;
 
 
 

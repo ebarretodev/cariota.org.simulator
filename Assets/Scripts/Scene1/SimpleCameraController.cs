@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SimpleCameraController : MonoBehaviour {
+    public void GetInput(){
+        m_verticalInput = Input.GetAxis("Vertical");
 
+    }
     public void LookAtTarget () {
         Vector3 _lookDirection = objectToFollow.position - transform.position;
         Quaternion _rot = Quaternion.LookRotation(_lookDirection, Vector3.up);
@@ -11,6 +14,13 @@ public class SimpleCameraController : MonoBehaviour {
     }
 
     public void MoveToTarget () {
+        if(m_verticalInput < 0 && offset.z < 0 ){
+            offset.z *= (- 1 );
+        }
+        if(m_verticalInput >= 0 && offset.z > 0 ){
+            offset.z *= (- 1) ;
+        }
+
         Vector3 _targetPos = objectToFollow.position +
                             objectToFollow.forward * offset.z +
                             objectToFollow.right *offset.x +
@@ -19,10 +29,12 @@ public class SimpleCameraController : MonoBehaviour {
     }
 
     private void FixedUpdate () {
+        GetInput();
         LookAtTarget();
         MoveToTarget();
     }
 
+    private float m_verticalInput;
     public Transform objectToFollow;
     public Vector3 offset;
     public float followSpeed = 10;
