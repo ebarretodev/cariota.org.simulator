@@ -8,14 +8,14 @@ public class GameConnectionsController : MonoBehaviour {
     private string token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYmQ2OTQ1MzZkZDBjMzdmMDdkNTBjZiIsInVzZXJuYW1lIjoiZWJhcnJldG8iLCJlbWFpbCI6ImVsaWFiZWxAdGVzdGUuY29tIiwiaWF0IjoxNjM5ODAzMjA1fQ.lO2yG-syRln_zxVCp-wWsFFAvHqj-UMDLTWmJ_e-9gk";
     //ReactVariables
     public void GetUsername(string _username){
-        if(username != "" ){
+        if(username != _username ){
             return;
         }
         username = _username;
     }
 
     public void GetToken(string _token){
-        if(token != "" ){
+        if(token != _token ){
             return;
         }
         token = _token;
