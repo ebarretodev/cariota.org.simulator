@@ -20,7 +20,7 @@ public class SimpleCarController : MonoBehaviour
     }
 
     public void ReleaseForceCarBrake() {
-        m_forcedBrake = false; 
+        m_forcedBrake = false;
     }
     private void Steer(){
         m_steeringAngle = maxSteeringAngle * m_horizontalInput;
@@ -52,6 +52,7 @@ public class SimpleCarController : MonoBehaviour
         UpdateWheelPose(frontRightW, frontRightT);
         UpdateWheelPose(backLeftW, backLeftT);
         UpdateWheelPose(backRightW, backRightT);
+
     }
     private void UpdateWheelPose(WheelCollider _collider, Transform _transform){
         Vector3 _pos = _transform.position;
@@ -61,10 +62,20 @@ public class SimpleCarController : MonoBehaviour
 
         _transform.position = _pos;
         _transform.rotation = _quat;
+
+    }
+
+    void UpdateTotalDistance(){
+        float frameDistance = Vector3.Distance(lastPosition, transform.position);
+        if (frameDistance>1){
+            totalDistance += frameDistance;
+            lastPosition = transform.position;
+        }
     }
 
     private void Start(){
         SetSpeed(1f);
+        lastPosition = transform.position;
     }
     private void FixedUpdate() {
         GetInput();
@@ -72,9 +83,12 @@ public class SimpleCarController : MonoBehaviour
         Accelerate();
         Brake();
         UpdateWheelPoses();
+        UpdateTotalDistance();
     }
 
     //Variables
+    public float totalDistance;
+    private Vector3 lastPosition;
     private float m_horizontalInput;
     private float m_verticalInput;
     private bool m_space;

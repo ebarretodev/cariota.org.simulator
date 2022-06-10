@@ -7,20 +7,20 @@ public class CarLights : MonoBehaviour {
     }
 
     private void BreakLight(){
-        tailLights.materials[0].EnableKeyword("_EMISSION");
+        tailLights.materials[26].EnableKeyword("_EMISSION");
         if(m_input_break){
-            tailLights.materials[0].SetColor("_EmissionColor", Color.white);
+            tailLights.materials[26].SetColor("_EmissionColor", Color.red);
         } else {
-            tailLights.materials[0].SetColor("_EmissionColor", Color.black);
+            tailLights.materials[26].SetColor("_EmissionColor", Color.black);
         }
     }
 
     private void BackLights(){
-        tailLights.materials[1].EnableKeyword("_EMISSION");
+        tailLights.materials[25].EnableKeyword("_EMISSION");
         if(m_input_vertical < 0){
-            tailLights.materials[1].SetColor("_EmissionColor", Color.white);
+            tailLights.materials[25].SetColor("_EmissionColor", Color.white);
         } else {
-            tailLights.materials[1].SetColor("_EmissionColor", Color.black);
+            tailLights.materials[25].SetColor("_EmissionColor", Color.black);
         }
     }
 

@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnergyController : MonoBehaviour
 {
     [SerializeField] BarraCircular barraCircular;
-    [SerializeField] Blink icon;
     [SerializeField] SimpleCarController car;
     [SerializeField] ChargeStationController charge;
 
@@ -46,7 +45,6 @@ public class EnergyController : MonoBehaviour
             if (tempoAtual <= 0)
             {
                 consuming = false;
-                icon.StartBlink(0.5f);
                 car.SetSpeed(5);
                 return;
             }
@@ -61,17 +59,12 @@ public class EnergyController : MonoBehaviour
     private void Charging(){
 
          if(charging){
-            if (chargingCount == 0 ){
-                icon.StopBlinking();
-            }
             chargingCount ++;
             car.SetSpeed(1);
-            icon.StartBlink(1f);
             tempoAtual += Time.deltaTime*2;
             barraCircular.AtualizarBarra(tempoAtual);
             if( tempoAtual >= tempoMaximo){
                 chargingCount = 0;
-                icon.StopBlinking();
                 car.ReleaseForceCarBrake();
                 charging = false;
                 tempoAtual = tempoMaximo;

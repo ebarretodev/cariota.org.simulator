@@ -1,0 +1,1320 @@
+fileFormatVersion: 2
+guid: 8b25ed4c7993cc84cac74e1b9c1fe6ac
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: geo_backlight_glow
+    100002: geo_blackholes
+    100004: geo_bluehighlight_p1
+    100006: geo_bluehighlight_p2
+    100008: geo_bluehighlight_part_001
+    100010: geo_bluehighlight_part_002
+    100012: geo_brakes_front
+    100014: geo_brakes_front1
+    100016: geo_brakes_front2
+    100018: geo_brakes_front3
+    100020: geo_brakes_rear
+    100022: geo_brakes_rear1
+    100024: geo_brakes_rear2
+    100026: geo_brakes_rear3
+    100028: geo_carbonparts_a
+    100030: geo_carbonparts_a_mirrored
+    100032: geo_carbonparts_b
+    100034: geo_carbonparts_b1
+    100036: geo_carbonparts_b2
+    100038: geo_carbonparts_b3
+    100040: geo_carbonparts_b_part_001
+    100042: geo_charging
+    100044: geo_dashboard_a
+    100046: geo_dashboard_b
+    100048: geo_dna_lines_offsetuv
+    100050: geo_doors
+    100052: geo_doors1
+    100054: geo_doors2
+    100056: geo_doors3
+    100058: geo_gaps
+    100060: geo_geo_PORMBB
+    100062: geo_geo_PORMBB1
+    100064: geo_geo_PORMBB2
+    100066: geo_geo_PORMBB_mirrored
+    100068: geo_ghost_wheelhouse
+    100070: geo_greenhouse
+    100072: geo_greenhouse_fix_mirror
+    100074: geo_greenhouse_mirrored
+    100076: geo_ground
+    100078: geo_ground_hooks
+    100080: geo_ground_logos
+    100082: geo_ground_mirrored
+    100084: geo_headlight_glow
+    100086: geo_mat_lamp
+    100088: geo_mat_lamp_mirrored
+    100090: geo_PORALU
+    100092: geo_PORALU1
+    100094: geo_PORALU2
+    100096: geo_PORALU3
+    100098: geo_POREMC
+    100100: geo_PORGLR_part_001
+    100102: geo_PORGLR_part_002
+    100104: geo_PORGLS_part_001
+    100106: geo_PORGLS_part_002
+    100108: geo_PORGLS_part_002_mirrored
+    100110: geo_PORGRD
+    100112: geo_PORLQW
+    100114: geo_PORLQW1
+    100116: geo_PORLQW2
+    100118: geo_PORLQW3
+    100120: geo_PORLWQ1
+    100122: geo_PORLWQ2
+    100124: geo_PORLWQ3
+    100126: geo_PORLWQ4
+    100128: geo_PORLWQ5
+    100130: geo_PORLWQ_Body
+    100132: geo_PORLWQ_part_001
+    100134: geo_PORLWQ_part_0011
+    100136: geo_PORLWQ_part_002
+    100138: geo_PORLWQ_part_0021
+    100140: geo_PORMBB
+    100142: geo_PORMBB1
+    100144: geo_PORMRD
+    100146: geo_PORMRD1
+    100148: geo_PORMRD2
+    100150: geo_PORMRD_part_002
+    100152: geo_PORMRD_part_002_mirrored
+    100154: geo_PORPHB
+    100156: geo_PORPHB1
+    100158: geo_PORPHB2
+    100160: geo_PORPHB3
+    100162: geo_PORPHB4
+    100164: geo_PORPHB5
+    100166: geo_PORPHB6
+    100168: geo_PORPHB_mirrored
+    100170: geo_PORPHB_mirrored1
+    100172: geo_PORPHB_part_001
+    100174: geo_PORPHB_part_002
+    100176: geo_PORPHB_part_002_mirrored
+    100178: geo_PORPHB_part_003
+    100180: geo_PORPHB_part_003_mirrored
+    100182: geo_PORPHB_part_004
+    100184: geo_PORPHB_part_004_mirrored
+    100186: geo_PORPHB_part_01
+    100188: geo_PORPHB_rear_ribs
+    100190: geo_PORPMB
+    100192: geo_PORPMB_mirrored
+    100194: geo_PORRBB
+    100196: geo_PORRBB1
+    100198: geo_PORRBB2
+    100200: geo_PORRBB3
+    100202: geo_PORRBB4
+    100204: geo_PORRBB_mirrored
+    100206: geo_PORRMB
+    100208: geo_PORRMB_mirrored
+    100210: geo_rim_tileable
+    100212: geo_rim_tileable1
+    100214: geo_rim_tileable2
+    100216: geo_rim_tileable3
+    100218: geo_seats
+    100220: geo_seats_logo_fl
+    100222: geo_seats_logo_fr
+    100224: geo_seats_logo_rl
+    100226: geo_seats_logo_rr
+    100228: geo_tire
+    100230: geo_tire003
+    100232: geo_tire004
+    100234: geo_tire2
+    100236: geo_wheelhouse
+    100238: geo_window_inside
+    100240: geo_window_inside_P1
+    100242: geo_window_inside_P2
+    100244: geo_window_inside_P3
+    100246: geo_window_inside_PORGLS
+    100248: geo_window_outside_1
+    100250: geo_window_outside_2
+    100252: geo_window_outside_3
+    100254: geo_window_outside_PORGLS
+    100256: Group005
+    100258: plug
+    100260: //RootNode
+    100262: Body
+    100264: Callipers FL
+    100266: Callipers FR
+    100268: Callipers RL
+    100270: Callipers RR
+    100272: Door FL
+    100274: Door FR
+    100276: Door RL
+    100278: Door RR
+    100280: Wheel FL
+    100282: Wheel FR
+    100284: Wheel RL
+    100286: Wheel RR
+    100288: Door FR.001
+    100290: Door RR.001
+    100292: FL Window
+    100294: FR Window
+    100296: RL Window
+    100298: RR Window
+    100300: Steering
+    100302: Window
+    100304: Logo
+    100306: Rear Name
+    100308: Body Part
+    100310: Brake Lights
+    100312: Body.001
+    100314: HeadLights Name
+    400000: geo_backlight_glow
+    400002: geo_blackholes
+    400004: geo_bluehighlight_p1
+    400006: geo_bluehighlight_p2
+    400008: geo_bluehighlight_part_001
+    400010: geo_bluehighlight_part_002
+    400012: geo_brakes_front
+    400014: geo_brakes_front1
+    400016: geo_brakes_front2
+    400018: geo_brakes_front3
+    400020: geo_brakes_rear
+    400022: geo_brakes_rear1
+    400024: geo_brakes_rear2
+    400026: geo_brakes_rear3
+    400028: geo_carbonparts_a
+    400030: geo_carbonparts_a_mirrored
+    400032: geo_carbonparts_b
+    400034: geo_carbonparts_b1
+    400036: geo_carbonparts_b2
+    400038: geo_carbonparts_b3
+    400040: geo_carbonparts_b_part_001
+    400042: geo_charging
+    400044: geo_dashboard_a
+    400046: geo_dashboard_b
+    400048: geo_dna_lines_offsetuv
+    400050: geo_doors
+    400052: geo_doors1
+    400054: geo_doors2
+    400056: geo_doors3
+    400058: geo_gaps
+    400060: geo_geo_PORMBB
+    400062: geo_geo_PORMBB1
+    400064: geo_geo_PORMBB2
+    400066: geo_geo_PORMBB_mirrored
+    400068: geo_ghost_wheelhouse
+    400070: geo_greenhouse
+    400072: geo_greenhouse_fix_mirror
+    400074: geo_greenhouse_mirrored
+    400076: geo_ground
+    400078: geo_ground_hooks
+    400080: geo_ground_logos
+    400082: geo_ground_mirrored
+    400084: geo_headlight_glow
+    400086: geo_mat_lamp
+    400088: geo_mat_lamp_mirrored
+    400090: geo_PORALU
+    400092: geo_PORALU1
+    400094: geo_PORALU2
+    400096: geo_PORALU3
+    400098: geo_POREMC
+    400100: geo_PORGLR_part_001
+    400102: geo_PORGLR_part_002
+    400104: geo_PORGLS_part_001
+    400106: geo_PORGLS_part_002
+    400108: geo_PORGLS_part_002_mirrored
+    400110: geo_PORGRD
+    400112: geo_PORLQW
+    400114: geo_PORLQW1
+    400116: geo_PORLQW2
+    400118: geo_PORLQW3
+    400120: geo_PORLWQ1
+    400122: geo_PORLWQ2
+    400124: geo_PORLWQ3
+    400126: geo_PORLWQ4
+    400128: geo_PORLWQ5
+    400130: geo_PORLWQ_Body
+    400132: geo_PORLWQ_part_001
+    400134: geo_PORLWQ_part_0011
+    400136: geo_PORLWQ_part_002
+    400138: geo_PORLWQ_part_0021
+    400140: geo_PORMBB
+    400142: geo_PORMBB1
+    400144: geo_PORMRD
+    400146: geo_PORMRD1
+    400148: geo_PORMRD2
+    400150: geo_PORMRD_part_002
+    400152: geo_PORMRD_part_002_mirrored
+    400154: geo_PORPHB
+    400156: geo_PORPHB1
+    400158: geo_PORPHB2
+    400160: geo_PORPHB3
+    400162: geo_PORPHB4
+    400164: geo_PORPHB5
+    400166: geo_PORPHB6
+    400168: geo_PORPHB_mirrored
+    400170: geo_PORPHB_mirrored1
+    400172: geo_PORPHB_part_001
+    400174: geo_PORPHB_part_002
+    400176: geo_PORPHB_part_002_mirrored
+    400178: geo_PORPHB_part_003
+    400180: geo_PORPHB_part_003_mirrored
+    400182: geo_PORPHB_part_004
+    400184: geo_PORPHB_part_004_mirrored
+    400186: geo_PORPHB_part_01
+    400188: geo_PORPHB_rear_ribs
+    400190: geo_PORPMB
+    400192: geo_PORPMB_mirrored
+    400194: geo_PORRBB
+    400196: geo_PORRBB1
+    400198: geo_PORRBB2
+    400200: geo_PORRBB3
+    400202: geo_PORRBB4
+    400204: geo_PORRBB_mirrored
+    400206: geo_PORRMB
+    400208: geo_PORRMB_mirrored
+    400210: geo_rim_tileable
+    400212: geo_rim_tileable1
+    400214: geo_rim_tileable2
+    400216: geo_rim_tileable3
+    400218: geo_seats
+    400220: geo_seats_logo_fl
+    400222: geo_seats_logo_fr
+    400224: geo_seats_logo_rl
+    400226: geo_seats_logo_rr
+    400228: geo_tire
+    400230: geo_tire003
+    400232: geo_tire004
+    400234: geo_tire2
+    400236: geo_wheelhouse
+    400238: geo_window_inside
+    400240: geo_window_inside_P1
+    400242: geo_window_inside_P2
+    400244: geo_window_inside_P3
+    400246: geo_window_inside_PORGLS
+    400248: geo_window_outside_1
+    400250: geo_window_outside_2
+    400252: geo_window_outside_3
+    400254: geo_window_outside_PORGLS
+    400256: Group005
+    400258: plug
+    400260: //RootNode
+    400262: Body
+    400264: Callipers FL
+    400266: Callipers FR
+    400268: Callipers RL
+    400270: Callipers RR
+    400272: Door FL
+    400274: Door FR
+    400276: Door RL
+    400278: Door RR
+    400280: Wheel FL
+    400282: Wheel FR
+    400284: Wheel RL
+    400286: Wheel RR
+    400288: Door FR.001
+    400290: Door RR.001
+    400292: FL Window
+    400294: FR Window
+    400296: RL Window
+    400298: RR Window
+    400300: Steering
+    400302: Window
+    400304: Logo
+    400306: Rear Name
+    400308: Body Part
+    400310: Brake Lights
+    400312: Body.001
+    400314: HeadLights Name
+    2100000: Roof_Interior
+    2100002: Floor_Interior
+    2100004: Seat_Logo_Interior
+    2100006: Seat_Interior
+    2100008: Doorsill
+    2100010: BlueHighLight
+    2100012: PORMBB
+    2100014: PORPMB
+    2100016: PORRBB
+    2100018: PORPHB
+    2100020: PORALU
+    2100022: Carbonparts_B
+    2100024: PORMRD
+    2100026: PORLQW
+    2100028: PORGLS
+    2100030: Door_Interior
+    2100032: Tires
+    2100034: Brakes_Front
+    2100036: Brakes_Rear
+    2100038: Ghostrim
+    2100040: 'Material #55'
+    2100042: 'Material #37'
+    2100044: PORGRD
+    2100046: POREMC
+    2100048: Glow_Front
+    2100050: Ghostcar
+    2100052: Charging
+    2100054: Carbonparts_A
+    2100056: Glow_Rear
+    2100058: Dashboard_b
+    2100060: Dashboard_A
+    2100062: HeadLights
+    2100064: Number Plate
+    2100066: Side Mirror Glass
+    2100068: Body_
+    2100070: Interior Floor
+    2100072: Interior Seats 2
+    2100074: Body Pormbb
+    2100076: Body 2
+    2100078: HeadLights Glass
+    2100080: Interior Seats
+    2100082: Doors Bottom
+    2100084: Interior Roof
+    2100086: Inner Body
+    2100088: Window Borders
+    2100090: Tail Lights Glass
+    2100092: Tail Lights
+    2100094: Tail 2
+    2100096: Reverse Lights
+    2100098: Brake Lights
+    2100100: Indicator Lights
+    2100102: Body 1
+    2100104: Body 3
+    2100106: Interior Dashboard 2 B
+    2100108: Interior Dashboard 1 A
+    2100110: HeadLights 2 Glow front
+    2100112: Bumpers CarbonParts
+    2100114: Doors Bottom carbon b
+    2100116: Rear 1
+    2100118: HeadLights Dim
+    2100120: HeadLights Fog 2
+    2100122: Brake Lights 2
+    2100124: HeadLights Fog 1
+    2100126: Rear 2
+    2100128: Interior Doors
+    2100130: Windows
+    2100132: Door carbon b
+    2100134: Logo
+    2100136: Rear 3
+    2100138: HeadLights Name
+    2100140: Rims 2
+    2100142: Rims 1
+    2100144: Body Inside door
+    2100146: Indicator Left
+    2100148: Indicator Right
+    2300000: geo_backlight_glow
+    2300002: geo_blackholes
+    2300004: geo_bluehighlight_p1
+    2300006: geo_bluehighlight_p2
+    2300008: geo_bluehighlight_part_001
+    2300010: geo_bluehighlight_part_002
+    2300012: geo_brakes_front
+    2300014: geo_brakes_front1
+    2300016: geo_brakes_front2
+    2300018: geo_brakes_front3
+    2300020: geo_brakes_rear
+    2300022: geo_brakes_rear1
+    2300024: geo_brakes_rear2
+    2300026: geo_brakes_rear3
+    2300028: geo_carbonparts_a
+    2300030: geo_carbonparts_a_mirrored
+    2300032: geo_carbonparts_b
+    2300034: geo_carbonparts_b1
+    2300036: geo_carbonparts_b2
+    2300038: geo_carbonparts_b3
+    2300040: geo_carbonparts_b_part_001
+    2300042: geo_charging
+    2300044: geo_dashboard_a
+    2300046: geo_dashboard_b
+    2300048: geo_dna_lines_offsetuv
+    2300050: geo_doors
+    2300052: geo_doors1
+    2300054: geo_doors2
+    2300056: geo_doors3
+    2300058: geo_gaps
+    2300060: geo_geo_PORMBB
+    2300062: geo_geo_PORMBB1
+    2300064: geo_geo_PORMBB2
+    2300066: geo_geo_PORMBB_mirrored
+    2300068: geo_ghost_wheelhouse
+    2300070: geo_greenhouse
+    2300072: geo_greenhouse_fix_mirror
+    2300074: geo_greenhouse_mirrored
+    2300076: geo_ground
+    2300078: geo_ground_hooks
+    2300080: geo_ground_logos
+    2300082: geo_ground_mirrored
+    2300084: geo_headlight_glow
+    2300086: geo_mat_lamp
+    2300088: geo_mat_lamp_mirrored
+    2300090: geo_PORALU
+    2300092: geo_PORALU1
+    2300094: geo_PORALU2
+    2300096: geo_PORALU3
+    2300098: geo_POREMC
+    2300100: geo_PORGLR_part_001
+    2300102: geo_PORGLR_part_002
+    2300104: geo_PORGLS_part_001
+    2300106: geo_PORGLS_part_002
+    2300108: geo_PORGLS_part_002_mirrored
+    2300110: geo_PORGRD
+    2300112: geo_PORLQW
+    2300114: geo_PORLQW1
+    2300116: geo_PORLQW2
+    2300118: geo_PORLQW3
+    2300120: geo_PORLWQ1
+    2300122: geo_PORLWQ2
+    2300124: geo_PORLWQ3
+    2300126: geo_PORLWQ4
+    2300128: geo_PORLWQ5
+    2300130: geo_PORLWQ_Body
+    2300132: geo_PORLWQ_part_001
+    2300134: geo_PORLWQ_part_0011
+    2300136: geo_PORLWQ_part_002
+    2300138: geo_PORLWQ_part_0021
+    2300140: geo_PORMBB
+    2300142: geo_PORMBB1
+    2300144: geo_PORMRD
+    2300146: geo_PORMRD1
+    2300148: geo_PORMRD2
+    2300150: geo_PORMRD_part_002
+    2300152: geo_PORMRD_part_002_mirrored
+    2300154: geo_PORPHB
+    2300156: geo_PORPHB1
+    2300158: geo_PORPHB2
+    2300160: geo_PORPHB3
+    2300162: geo_PORPHB4
+    2300164: geo_PORPHB5
+    2300166: geo_PORPHB6
+    2300168: geo_PORPHB_mirrored
+    2300170: geo_PORPHB_mirrored1
+    2300172: geo_PORPHB_part_001
+    2300174: geo_PORPHB_part_002
+    2300176: geo_PORPHB_part_002_mirrored
+    2300178: geo_PORPHB_part_003
+    2300180: geo_PORPHB_part_003_mirrored
+    2300182: geo_PORPHB_part_004
+    2300184: geo_PORPHB_part_004_mirrored
+    2300186: geo_PORPHB_part_01
+    2300188: geo_PORPHB_rear_ribs
+    2300190: geo_PORPMB
+    2300192: geo_PORPMB_mirrored
+    2300194: geo_PORRBB
+    2300196: geo_PORRBB1
+    2300198: geo_PORRBB2
+    2300200: geo_PORRBB3
+    2300202: geo_PORRBB4
+    2300204: geo_PORRBB_mirrored
+    2300206: geo_PORRMB
+    2300208: geo_PORRMB_mirrored
+    2300210: geo_rim_tileable
+    2300212: geo_rim_tileable1
+    2300214: geo_rim_tileable2
+    2300216: geo_rim_tileable3
+    2300218: geo_seats
+    2300220: geo_seats_logo_fl
+    2300222: geo_seats_logo_fr
+    2300224: geo_seats_logo_rl
+    2300226: geo_seats_logo_rr
+    2300228: geo_tire
+    2300230: geo_tire003
+    2300232: geo_tire004
+    2300234: geo_tire2
+    2300236: geo_wheelhouse
+    2300238: geo_window_inside
+    2300240: geo_window_inside_P1
+    2300242: geo_window_inside_P2
+    2300244: geo_window_inside_P3
+    2300246: geo_window_inside_PORGLS
+    2300248: geo_window_outside_1
+    2300250: geo_window_outside_2
+    2300252: geo_window_outside_3
+    2300254: geo_window_outside_PORGLS
+    2300256: plug
+    2300258: Body
+    2300260: Callipers FL
+    2300262: Callipers FR
+    2300264: Callipers RL
+    2300266: Callipers RR
+    2300268: Door FL
+    2300270: Door FR
+    2300272: Door RL
+    2300274: Door RR
+    2300276: Wheel FL
+    2300278: Wheel FR
+    2300280: Wheel RL
+    2300282: Wheel RR
+    2300284: Door FR.001
+    2300286: Door RR.001
+    2300288: FL Window
+    2300290: FR Window
+    2300292: RL Window
+    2300294: RR Window
+    2300296: Steering
+    2300298: Window
+    2300300: Logo
+    2300302: Rear Name
+    2300304: Body Part
+    2300306: Brake Lights
+    2300308: Body.001
+    2300310: HeadLights Name
+    3300000: geo_backlight_glow
+    3300002: geo_blackholes
+    3300004: geo_bluehighlight_p1
+    3300006: geo_bluehighlight_p2
+    3300008: geo_bluehighlight_part_001
+    3300010: geo_bluehighlight_part_002
+    3300012: geo_brakes_front
+    3300014: geo_brakes_front1
+    3300016: geo_brakes_front2
+    3300018: geo_brakes_front3
+    3300020: geo_brakes_rear
+    3300022: geo_brakes_rear1
+    3300024: geo_brakes_rear2
+    3300026: geo_brakes_rear3
+    3300028: geo_carbonparts_a
+    3300030: geo_carbonparts_a_mirrored
+    3300032: geo_carbonparts_b
+    3300034: geo_carbonparts_b1
+    3300036: geo_carbonparts_b2
+    3300038: geo_carbonparts_b3
+    3300040: geo_carbonparts_b_part_001
+    3300042: geo_charging
+    3300044: geo_dashboard_a
+    3300046: geo_dashboard_b
+    3300048: geo_dna_lines_offsetuv
+    3300050: geo_doors
+    3300052: geo_doors1
+    3300054: geo_doors2
+    3300056: geo_doors3
+    3300058: geo_gaps
+    3300060: geo_geo_PORMBB
+    3300062: geo_geo_PORMBB1
+    3300064: geo_geo_PORMBB2
+    3300066: geo_geo_PORMBB_mirrored
+    3300068: geo_ghost_wheelhouse
+    3300070: geo_greenhouse
+    3300072: geo_greenhouse_fix_mirror
+    3300074: geo_greenhouse_mirrored
+    3300076: geo_ground
+    3300078: geo_ground_hooks
+    3300080: geo_ground_logos
+    3300082: geo_ground_mirrored
+    3300084: geo_headlight_glow
+    3300086: geo_mat_lamp
+    3300088: geo_mat_lamp_mirrored
+    3300090: geo_PORALU
+    3300092: geo_PORALU1
+    3300094: geo_PORALU2
+    3300096: geo_PORALU3
+    3300098: geo_POREMC
+    3300100: geo_PORGLR_part_001
+    3300102: geo_PORGLR_part_002
+    3300104: geo_PORGLS_part_001
+    3300106: geo_PORGLS_part_002
+    3300108: geo_PORGLS_part_002_mirrored
+    3300110: geo_PORGRD
+    3300112: geo_PORLQW
+    3300114: geo_PORLQW1
+    3300116: geo_PORLQW2
+    3300118: geo_PORLQW3
+    3300120: geo_PORLWQ1
+    3300122: geo_PORLWQ2
+    3300124: geo_PORLWQ3
+    3300126: geo_PORLWQ4
+    3300128: geo_PORLWQ5
+    3300130: geo_PORLWQ_Body
+    3300132: geo_PORLWQ_part_001
+    3300134: geo_PORLWQ_part_0011
+    3300136: geo_PORLWQ_part_002
+    3300138: geo_PORLWQ_part_0021
+    3300140: geo_PORMBB
+    3300142: geo_PORMBB1
+    3300144: geo_PORMRD
+    3300146: geo_PORMRD1
+    3300148: geo_PORMRD2
+    3300150: geo_PORMRD_part_002
+    3300152: geo_PORMRD_part_002_mirrored
+    3300154: geo_PORPHB
+    3300156: geo_PORPHB1
+    3300158: geo_PORPHB2
+    3300160: geo_PORPHB3
+    3300162: geo_PORPHB4
+    3300164: geo_PORPHB5
+    3300166: geo_PORPHB6
+    3300168: geo_PORPHB_mirrored
+    3300170: geo_PORPHB_mirrored1
+    3300172: geo_PORPHB_part_001
+    3300174: geo_PORPHB_part_002
+    3300176: geo_PORPHB_part_002_mirrored
+    3300178: geo_PORPHB_part_003
+    3300180: geo_PORPHB_part_003_mirrored
+    3300182: geo_PORPHB_part_004
+    3300184: geo_PORPHB_part_004_mirrored
+    3300186: geo_PORPHB_part_01
+    3300188: geo_PORPHB_rear_ribs
+    3300190: geo_PORPMB
+    3300192: geo_PORPMB_mirrored
+    3300194: geo_PORRBB
+    3300196: geo_PORRBB1
+    3300198: geo_PORRBB2
+    3300200: geo_PORRBB3
+    3300202: geo_PORRBB4
+    3300204: geo_PORRBB_mirrored
+    3300206: geo_PORRMB
+    3300208: geo_PORRMB_mirrored
+    3300210: geo_rim_tileable
+    3300212: geo_rim_tileable1
+    3300214: geo_rim_tileable2
+    3300216: geo_rim_tileable3
+    3300218: geo_seats
+    3300220: geo_seats_logo_fl
+    3300222: geo_seats_logo_fr
+    3300224: geo_seats_logo_rl
+    3300226: geo_seats_logo_rr
+    3300228: geo_tire
+    3300230: geo_tire003
+    3300232: geo_tire004
+    3300234: geo_tire2
+    3300236: geo_wheelhouse
+    3300238: geo_window_inside
+    3300240: geo_window_inside_P1
+    3300242: geo_window_inside_P2
+    3300244: geo_window_inside_P3
+    3300246: geo_window_inside_PORGLS
+    3300248: geo_window_outside_1
+    3300250: geo_window_outside_2
+    3300252: geo_window_outside_3
+    3300254: geo_window_outside_PORGLS
+    3300256: plug
+    3300258: Body
+    3300260: Callipers FL
+    3300262: Callipers FR
+    3300264: Callipers RL
+    3300266: Callipers RR
+    3300268: Door FL
+    3300270: Door FR
+    3300272: Door RL
+    3300274: Door RR
+    3300276: Wheel FL
+    3300278: Wheel FR
+    3300280: Wheel RL
+    3300282: Wheel RR
+    3300284: Door FR.001
+    3300286: Door RR.001
+    3300288: FL Window
+    3300290: FR Window
+    3300292: RL Window
+    3300294: RR Window
+    3300296: Steering
+    3300298: Window
+    3300300: Logo
+    3300302: Rear Name
+    3300304: Body Part
+    3300306: Brake Lights
+    3300308: Body.001
+    3300310: HeadLights Name
+    4300000: geo_greenhouse_mirrored
+    4300002: geo_greenhouse
+    4300004: geo_ground_mirrored
+    4300006: geo_seats_logo_fl
+    4300008: geo_seats_logo_fr
+    4300010: geo_seats_logo_rl
+    4300012: geo_seats_logo_rr
+    4300014: geo_seats
+    4300016: geo_ground
+    4300018: geo_ground_hooks
+    4300020: geo_ground_logos
+    4300022: geo_bluehighlight_p2
+    4300024: geo_bluehighlight_part_002
+    4300026: geo_bluehighlight_p1
+    4300028: geo_bluehighlight_part_001
+    4300030: geo_geo_PORMBB2
+    4300032: geo_geo_PORMBB_mirrored
+    4300034: geo_PORMBB1
+    4300036: geo_PORMBB
+    4300038: geo_geo_PORMBB
+    4300040: geo_geo_PORMBB1
+    4300042: geo_PORPMB_mirrored
+    4300044: geo_PORPMB
+    4300046: geo_PORRBB_mirrored
+    4300048: geo_PORRBB4
+    4300050: geo_PORRBB3
+    4300052: geo_PORRBB
+    4300054: geo_PORPHB_part_01
+    4300056: geo_PORPHB3
+    4300058: geo_PORPHB2
+    4300060: geo_PORPHB1
+    4300062: geo_PORALU3
+    4300064: geo_PORALU2
+    4300066: geo_PORALU1
+    4300068: geo_PORALU
+    4300070: geo_carbonparts_b
+    4300072: geo_carbonparts_b1
+    4300074: geo_carbonparts_b2
+    4300076: geo_carbonparts_b3
+    4300078: geo_PORRBB2
+    4300080: geo_PORRBB1
+    4300082: geo_PORMRD2
+    4300084: geo_PORMRD1
+    4300086: geo_PORLWQ4
+    4300088: geo_PORLWQ3
+    4300090: geo_PORLWQ2
+    4300092: geo_PORLWQ1
+    4300094: geo_window_inside_P2
+    4300096: geo_window_inside_P3
+    4300098: geo_window_inside_PORGLS
+    4300100: geo_window_outside_3
+    4300102: geo_window_outside_2
+    4300104: geo_window_outside_1
+    4300106: geo_window_outside_PORGLS
+    4300108: geo_window_inside_P1
+    4300110: geo_doors
+    4300112: geo_doors1
+    4300114: geo_doors3
+    4300116: geo_doors2
+    4300118: geo_tire004
+    4300120: geo_tire003
+    4300122: geo_brakes_front
+    4300124: geo_brakes_front1
+    4300126: geo_brakes_front2
+    4300128: geo_brakes_front3
+    4300130: geo_brakes_rear
+    4300132: geo_brakes_rear1
+    4300134: geo_brakes_rear2
+    4300136: geo_brakes_rear3
+    4300138: geo_rim_tileable
+    4300140: geo_rim_tileable1
+    4300142: geo_rim_tileable2
+    4300144: geo_rim_tileable3
+    4300146: geo_tire
+    4300148: geo_tire2
+    4300150: geo_PORLQW3
+    4300152: geo_PORLQW2
+    4300154: geo_PORLQW1
+    4300156: geo_PORLQW
+    4300158: geo_mat_lamp_mirrored
+    4300160: geo_PORPHB_part_004_mirrored
+    4300162: geo_PORPHB_part_003_mirrored
+    4300164: geo_PORMRD_part_002_mirrored
+    4300166: geo_PORGLS_part_002_mirrored
+    4300168: geo_PORPHB_part_004
+    4300170: geo_PORGLS_part_002
+    4300172: geo_PORMRD_part_002
+    4300174: geo_mat_lamp
+    4300176: geo_PORPHB_part_003
+    4300178: geo_PORRMB
+    4300180: geo_PORRMB_mirrored
+    4300182: plug
+    4300184: geo_wheelhouse
+    4300186: geo_PORPHB_part_002_mirrored
+    4300188: geo_PORPHB_part_002
+    4300190: geo_PORPHB_part_001
+    4300192: geo_PORPHB_mirrored1
+    4300194: geo_PORPHB6
+    4300196: geo_PORPHB5
+    4300198: geo_PORPHB4
+    4300200: geo_PORMRD
+    4300202: geo_PORLWQ_part_0011
+    4300204: geo_PORLWQ_part_001
+    4300206: geo_PORLWQ5
+    4300208: geo_PORGRD
+    4300210: geo_PORGLS_part_001
+    4300212: geo_PORGLR_part_002
+    4300214: geo_PORGLR_part_001
+    4300216: geo_POREMC
+    4300218: geo_headlight_glow
+    4300220: geo_ghost_wheelhouse
+    4300222: geo_gaps
+    4300224: geo_charging
+    4300226: geo_carbonparts_b_part_001
+    4300228: geo_blackholes
+    4300230: geo_window_inside
+    4300232: geo_PORPHB_rear_ribs
+    4300234: geo_PORLWQ_Body
+    4300236: geo_dna_lines_offsetuv
+    4300238: geo_carbonparts_a_mirrored
+    4300240: geo_carbonparts_a
+    4300242: geo_backlight_glow
+    4300244: geo_PORPHB_mirrored
+    4300246: geo_PORPHB
+    4300248: geo_dashboard_b
+    4300250: geo_dashboard_a
+    4300252: geo_PORLWQ_part_0021
+    4300254: geo_PORLWQ_part_002
+    4300256: geo_greenhouse_fix_mirror
+    4300258: Wheel FR
+    4300260: Callipers FR
+    4300262: Wheel FL
+    4300264: Callipers FL
+    4300266: Wheel RL
+    4300268: Callipers RL
+    4300270: Wheel RR
+    4300272: Callipers RR
+    4300274: Body
+    4300276: Door RR
+    4300278: Door RL
+    4300280: Door FR
+    4300282: Door FL
+    4300284: Door RR.001
+    4300286: Door FR.001
+    4300288: Steering
+    4300290: RL Window
+    4300292: FL Window
+    4300294: Window
+    4300296: RR Window
+    4300298: FR Window
+    4300300: Rear Name
+    4300302: Logo
+    4300304: Body Part
+    4300306: Brake Lights
+    4300308: Body.001
+    4300310: HeadLights Name
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueHighLight
+    second: {fileID: 2100000, guid: d03a0cdbfdaa87a40b6ab9621939c5b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body 1
+    second: {fileID: 2100000, guid: 70514ddd8c9bbfd41aa730ac7aa8c0e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body 2
+    second: {fileID: 2100000, guid: b3c2beef448f9754090e494d03f47aae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body 3
+    second: {fileID: 2100000, guid: cdfe1498b4890274889e507a60c2c27c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body Inside door
+    second: {fileID: 2100000, guid: 66718dc4f89ba1b4b8d2abd21722a839, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body Pormbb
+    second: {fileID: 2100000, guid: ae49f9a156e20db458e821638388172b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_
+    second: {fileID: 2100000, guid: ccc60801ff77dee4d9b1fb3295bb5d8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brake Lights
+    second: {fileID: 2100000, guid: 34376b160ffb4f64e8648786593ea4c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brake Lights 2
+    second: {fileID: 2100000, guid: 00a04a64b111eeb4287836feefe11684, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brakes_Front
+    second: {fileID: 2100000, guid: 00619291ced17b645ab864f52849e5d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brakes_Rear
+    second: {fileID: 2100000, guid: 2fbf5f0c85524174da65860896cd4be1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bumpers CarbonParts
+    second: {fileID: 2100000, guid: 19018e972b912e74db61c7ce56b39997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carbonparts_A
+    second: {fileID: 2100000, guid: 35fb6e9f23281304e8c4bda334f05e43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carbonparts_B
+    second: {fileID: 2100000, guid: 0c5ac2434e58e3949a32718c0ac01d26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Charging
+    second: {fileID: 2100000, guid: 215f289ea9a43b747aea35391f644b5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dashboard_A
+    second: {fileID: 2100000, guid: 60c66aeba4b87ae4d9bb01dbf0384d1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dashboard_b
+    second: {fileID: 2100000, guid: cbc7c4241ee60d844b0d6f9b4d2e01ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door carbon b
+    second: {fileID: 2100000, guid: 74c7b0f78f326504e9635c3fe3e61e7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Interior
+    second: {fileID: 2100000, guid: f1adde709801c6444888b77e646024d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors Bottom
+    second: {fileID: 2100000, guid: 488bb4e16999bf841905d01e30a0d454, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors Bottom carbon b
+    second: {fileID: 2100000, guid: 45c9c156353667142b1f977be3eb1e2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doorsill
+    second: {fileID: 2100000, guid: 94aade8330c78c34abb0486c8df2103f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_Interior
+    second: {fileID: 2100000, guid: ac8d4b7051eb5744a8df63a4320f08e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ghostcar
+    second: {fileID: 2100000, guid: 03b7754b9d013ee4b97ad7b283756cf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ghostrim
+    second: {fileID: 2100000, guid: df45947c6965c8d41a4198790731a416, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glow_Front
+    second: {fileID: 2100000, guid: fea8ba41ce40ca646a7fa665e762cb2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glow_Rear
+    second: {fileID: 2100000, guid: 36175b59509e31849b7a0e01ca34724c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadLights
+    second: {fileID: 2100000, guid: ff7692cdff2884a45ab853efa8482089, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadLights 2 Glow front
+    second: {fileID: 2100000, guid: 6b79e0d6020cf864da859166f81bf6ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadLights Dim
+    second: {fileID: 2100000, guid: 5ea1b3bf13e894b4197522536f4e7d01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadLights Fog 1
+    second: {fileID: 2100000, guid: f76b3f384350565418e72140e85c1c06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadLights Fog 2
+    second: {fileID: 2100000, guid: 6aa172ad194a1254aba27eaec9c85cdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadLights Glass
+    second: {fileID: 2100000, guid: f38c3b28ccf190c4b8ba0f633e8fa225, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadLights Name
+    second: {fileID: 2100000, guid: 85445c2ebaea45d4698d63e296bc184f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indicator Left
+    second: {fileID: 2100000, guid: c7a7f028aa888a0428357266923c5dfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indicator Lights
+    second: {fileID: 2100000, guid: 6686523ca4b42604eb9c99fb765b8a03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indicator Right
+    second: {fileID: 2100000, guid: d40adaeb2e1a14b47b6267b6b7426131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inner Body
+    second: {fileID: 2100000, guid: 5ad63649242e94b429af92c4a9e982c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Dashboard 1 A
+    second: {fileID: 2100000, guid: 1d26978fc969bff4c89d75890711739f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Dashboard 2 B
+    second: {fileID: 2100000, guid: cbc7c4241ee60d844b0d6f9b4d2e01ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Doors
+    second: {fileID: 2100000, guid: 48d159bec98e0254db08b6a3d0dabd32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Floor
+    second: {fileID: 2100000, guid: 81afaff48227c9841a38ade1c7ae05ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Roof
+    second: {fileID: 2100000, guid: dd11d7a2bbd69174d8277df7beb0b153, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Seats
+    second: {fileID: 2100000, guid: 318fdab8258771e4685a8bfb9061261a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Seats 2
+    second: {fileID: 2100000, guid: 2badef2ff2ac6df4cb7b19c69e4451ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Logo
+    second: {fileID: 2100000, guid: ef3fd1b6f69ec5b4cb4a33ce7d724aed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #37'
+    second: {fileID: 2100000, guid: 9aa81d80fb6c3ca4ba7c9595719df187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #55'
+    second: {fileID: 2100000, guid: 785e1b21ae9981a478d387a79e8d17ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Number Plate
+    second: {fileID: 2100000, guid: 1ade2b323f21079448d23101123fd536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PORALU
+    second: {fileID: 2100000, guid: 5345adb17cbb4fa47a7a1715bb3650d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: POREMC
+    second: {fileID: 2100000, guid: 411535cad046310408ae056df0d6460a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PORGLS
+    second: {fileID: 2100000, guid: c544763fed6528343bba857e3c72e378, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PORGRD
+    second: {fileID: 2100000, guid: 09b80dd180096f044b6df7453c8210ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PORLQW
+    second: {fileID: 2100000, guid: 79e2f483b01691c44af89b71232a7f9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PORMBB
+    second: {fileID: 2100000, guid: 3e054040ffa420243b5ef3ef166b65e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PORMRD
+    second: {fileID: 2100000, guid: 3b468444cbbf3f14ca5b7da536393578, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PORPHB
+    second: {fileID: 2100000, guid: 1276565830fcaab43b76ff8ca4f793ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PORPMB
+    second: {fileID: 2100000, guid: 5c051205c40a98642b8823760f449531, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PORRBB
+    second: {fileID: 2100000, guid: 6ee6ea7be3885ae48878098208fc7c8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear 1
+    second: {fileID: 2100000, guid: cca1a1e8c17b4224496e8bc186b3739f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear 2
+    second: {fileID: 2100000, guid: 8a6259cea98c903469c610fc8564cb1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear 3
+    second: {fileID: 2100000, guid: 6a3905b001c637946ab93cd2b546f0a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reverse Lights
+    second: {fileID: 2100000, guid: 30a3b7a4359d7e44da94e1937729e1b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rims 1
+    second: {fileID: 2100000, guid: e124fd17ddc784940a77f6aac10ac3ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rims 2
+    second: {fileID: 2100000, guid: a9e75301b1000ef49a3908817bd5cfe2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Interior
+    second: {fileID: 2100000, guid: 3e3e33abe07af2549a449d694fb1cf3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seat_Interior
+    second: {fileID: 2100000, guid: fb02fb17a89a46d4baa1e56a48fedb4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seat_Logo_Interior
+    second: {fileID: 2100000, guid: f03df5ea98dd71c45871a341866bd8c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side Mirror Glass
+    second: {fileID: 2100000, guid: 343d0d3325a493c4f884ec441943215f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tail 2
+    second: {fileID: 2100000, guid: 7aef9a79a34439d4caf2fa73b2602c23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tail Lights
+    second: {fileID: 2100000, guid: 3156fa70d784abf4daf5934b7a95ffe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tail Lights Glass
+    second: {fileID: 2100000, guid: 2ecd847daf9a2094bb05a32cc4d4f5e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tires
+    second: {fileID: 2100000, guid: 8922609a5287be74bb3eca8fd2d7f4b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Borders
+    second: {fileID: 2100000, guid: 1e70cd8f0f2b24249b9eb81493396f4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows
+    second: {fileID: 2100000, guid: f6f54580396300949b9a212fda48379a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
