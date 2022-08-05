@@ -11,6 +11,7 @@ public class ShopController : MonoBehaviour
     [SerializeField] SimpleCarController car;
 
     [SerializeField] GameConnectionsController con;
+    [SerializeField] ViewsController views;
 
     private IEnumerator coroutine;
     public int CoffeeValue;
@@ -19,7 +20,8 @@ public class ShopController : MonoBehaviour
     public int percentageTaxValue = 50;
     public Text message;
     private IEnumerator coroutinePaymentFee;
-    private string token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzlhN2JhYmI1Y2Y3YWEzZDJhMjllZSIsInVzZXJuYW1lIjoiU2hvcCIsImlhdCI6MTY1MjEzOTk2Mn0.vHGRF0e4aiVviLJXty7FyhA1ZCfsDhJ7i4AiI6EjkLI";
+    private string tokenShop = "wDnUE21Vz6Vn7zm5ERbvcybqzi33";
+    private string addressShop = "atoi1qr02tzfuemp3d3fljlcq7rjuk5u7r5f6d3uh8q0llyuj8hvytkjgqnxlkwn";
     private string addressCityHall = "atoi1qpqv4yvfcdf53xx4mmufyp6h4ruxtny7hudaf7hw8ak4djq5f2tf7y3pkue";
     void Start()
     {
@@ -48,13 +50,16 @@ public class ShopController : MonoBehaviour
         message.text = "Coffee already delivered. Thanks :) Come back Soon!!";
         car.ReleaseForceCarBrake();
         yield return new WaitForSeconds(5);
+        if(views.progress == 3){
+            views.FireScreen4();
+        }
         ScreenToInfo.SetActive(false);
 
     }
 
     public IEnumerator StartSendValues()
     {
-        string address = "atoi1qr02tzfuemp3d3fljlcq7rjuk5u7r5f6d3uh8q0llyuj8hvytkjgqnxlkwn";
+        string address = addressShop;
         string message = $"Send {CoffeeValue} Miota to Shop for 1 coffee";
         coroutine = con.SendIota(address, CoffeeValue, message);
         Debug.Log($"Send {CoffeeValue} Miota");
@@ -66,7 +71,7 @@ public class ShopController : MonoBehaviour
     {
         taxValue = Mathf.RoundToInt(CoffeeValue * percentageTaxValue / 100);
         string message = $"Shop pays tax(es) {taxValue}Mi to CityHall";
-        coroutinePaymentFee = con.SendIota(addressCityHall, taxValue, message);
+        coroutinePaymentFee = con.SendIota(addressCityHall, taxValue, message, tokenShop);
         StartCoroutine(coroutinePaymentFee);
     }
 

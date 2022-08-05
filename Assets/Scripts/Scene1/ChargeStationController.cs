@@ -8,6 +8,7 @@ public class ChargeStationController : MonoBehaviour {
     [SerializeField] SimpleCarController car;
     [SerializeField] GameConnectionsController con;
     [SerializeField] EnergyController energyBar;
+    [SerializeField] ViewsController views;
     public Text ScreenTextField;
     private int value;
     public float purchase = 5f ;
@@ -16,7 +17,9 @@ public class ChargeStationController : MonoBehaviour {
     private int taxValue;
     public int percentageTaxValue = 50;
     private IEnumerator coroutinePaymentFee;
-    private string token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYmRmZjRmMjYzMzU1OWNhZWFjY2ZlOSIsInVzZXJuYW1lIjoiQ2hhcmdpbmdTdGF0aW9uIiwiaWF0IjoxNjM5ODQxNjE1fQ.A1Guft9ApazGgbBMUIJbewODCpgKaN6G-CIcTprhy0U";
+    private string tokenChargingStation = "upY1cfomSbepxuPj2bd1DIK4klm1";
+
+    private string addressChargingStation = "atoi1qztjwahghcyzjv2mtwga8j34svf8e3ypmrtfhtnjzn4jrmw5s2x325gpy4m";
     private string addressCityHall = "atoi1qpqv4yvfcdf53xx4mmufyp6h4ruxtny7hudaf7hw8ak4djq5f2tf7y3pkue";
     bool keepSending = false;
     void Start (){
@@ -24,18 +27,21 @@ public class ChargeStationController : MonoBehaviour {
     }
 
     public IEnumerator StartSendValues(){
-        string address = "atoi1qztjwahghcyzjv2mtwga8j34svf8e3ypmrtfhtnjzn4jrmw5s2x325gpy4m";
+        string address = addressChargingStation;
         string message = $"Send {value} Miota to ChargeStation for {Mathf.RoundToInt(timeToRecharge)} seconds of recharge";
         coroutine = con.SendIota(address, value, message);
         Debug.Log($"Send {value} Miota");
         yield return StartCoroutine(coroutine);
+        if(views.progress == 7){
+            views.FireScreen8();
+        }
         StartTaxPayment();
     }
 
     private void StartTaxPayment(){
         taxValue = Mathf.RoundToInt(value * percentageTaxValue / 100);
         string message = $"ChargeStation pays tax(es) {taxValue}Mi to CityHall";
-        coroutinePaymentFee = con.SendIota(addressCityHall, taxValue, message);
+        coroutinePaymentFee = con.SendIota(addressCityHall, taxValue, message, tokenChargingStation);
         StartCoroutine(coroutinePaymentFee);
     }
 

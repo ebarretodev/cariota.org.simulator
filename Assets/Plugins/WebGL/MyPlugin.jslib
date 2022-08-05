@@ -1,7 +1,12 @@
 mergeInto(LibraryManager.library, {
-  initialized: function (userName, score) {
+  initialized: function () {
     window.dispatchReactUnityEvent(
       "initialized"
     );
   },
+  finishQuest: function () {
+    window.dispatchReactUnityEvent(
+      "finishQuest"
+    );
+  }
 });

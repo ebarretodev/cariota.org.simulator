@@ -10,6 +10,7 @@ public class ReportClima : MonoBehaviour
     public Text humidity;
     public Text temp;
     [SerializeField] GameConnectionsController con;
+    [SerializeField] ViewsController views;
     public GameObject ScreenToShow;
     public Text message;
     public int value = 5;
@@ -22,7 +23,7 @@ public class ReportClima : MonoBehaviour
 
     public IEnumerator StartSendValues()
     {
-        string tokenFromCityHall = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYmRlN2Q5MmYxMWIzNjg4Njg4OTI3NiIsInVzZXJuYW1lIjoiQ2l0eUhhbGwiLCJpYXQiOjE2Mzk4MzU2MDl9.RX9NMwNBRwDn2WsfRsIvZUqbfFGtMIX1ThX3eZZauNU";
+        string tokenFromCityHall = "4Wk6KDvdzkX3tHyEtf0wbsjxgoh1";
         string address = con.address;
         string message = $"Send {value} Miota to user for report weather data, {{ weather: {{ humidity: {humidity.text} , temperature: {temp.text} }} }} ";
         coroutine = con.SendIota(address, value, message, tokenFromCityHall);
@@ -41,6 +42,9 @@ public class ReportClima : MonoBehaviour
         ScreenToShow.SetActive(true);
         message.text = $"{value}Mi received from CityHall.";
         yield return new WaitForSeconds(5);
+        if(views.progress == 5){
+            views.FireScreen6();
+        }
         ScreenToShow.SetActive(false);
     }
 

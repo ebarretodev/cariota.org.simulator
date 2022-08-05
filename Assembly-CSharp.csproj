@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{833333c6-758c-4a33-1d21-e83a57d2fab1}</ProjectGuid>
+    <ProjectGuid>{5f079958-1e20-491a-a866-6ec83f6724a7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\Scene1\SpeedometerController.cs" />
      <Compile Include="Assets\Scripts\Scene1\BarraCircular.cs" />
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Scripts\Scene1\ReportClima.cs" />
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\SmoothFollow.cs" />
      <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\WaypointCircuit.cs" />
@@ -83,6 +84,7 @@
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\ObjectResetter.cs" />
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Scripts\Scene1\ShopController.cs" />
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\AlphaButtonClickMask.cs" />
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\FOVKick.cs" />
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -95,8 +97,7 @@
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Scripts\SwitchMoveCorridor2.cs" />
      <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-     <Compile Include="Assets\Scripts\Scene1\ReportClima.cs" />
-     <Compile Include="Assets\Scripts\Scene1\ShopController.cs" />
+     <Compile Include="Assets\Scripts\Scene1\ViewsController.cs" />
      <None Include="Assets\SimpleTeleportEffect\Shaders\UnlitTextureAlphaColor_URP.shader" />
      <None Include="Assets\SimpleTeleportEffect\Shaders\UnlitTextureAlphaColor_Built-In.shader" />
      <None Include="Assets\UI pack\Documentation.txt" />
@@ -317,7 +318,7 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -671,76 +672,76 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>D:/MeuDrive/001_Trabalhos/001_Automação/005_CarWallet/cariota.org.simulador/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+        <HintPath>C:/Users/ebarreto/Desktop/cariota.org.simulator/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
