@@ -6,7 +6,25 @@ public class SimpleCarController : MonoBehaviour
 {
     private void GetInput(){
         m_horizontalInput = Input.GetAxis("Horizontal");
+        if (rightButton.isPressed)
+        {
+            m_horizontalInput += rightButton.dampenPress;
+        }
+        if (leftButton.isPressed)
+        {
+            m_horizontalInput -= leftButton.dampenPress;
+        }
+
         m_verticalInput = Input.GetAxis("Vertical");
+        if (gasPedal.isPressed)
+        {
+            m_verticalInput += gasPedal.dampenPress;
+        }
+        if (brakePedal.isPressed)
+        {
+            m_verticalInput -= brakePedal.dampenPress;
+        }
+
         m_space = Input.GetKey(KeyCode.Space);
 
     }
@@ -102,6 +120,9 @@ public class SimpleCarController : MonoBehaviour
     private float motorForce;
     public float brakeForce = 5000;
 
-
+    public Mybutton gasPedal;
+    public Mybutton brakePedal;
+    public Mybutton leftButton;
+    public Mybutton rightButton;
 
 }

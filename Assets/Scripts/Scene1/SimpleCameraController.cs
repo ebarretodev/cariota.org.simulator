@@ -5,7 +5,14 @@ using UnityEngine;
 public class SimpleCameraController : MonoBehaviour {
     public void GetInput(){
         m_verticalInput = Input.GetAxis("Vertical");
-
+        if (gasPedal.isPressed)
+        {
+            m_verticalInput += gasPedal.dampenPress;
+        }
+        if (brakePedal.isPressed)
+        {
+            m_verticalInput -= brakePedal.dampenPress;
+        }
     }
     public void LookAtTarget () {
         Vector3 _lookDirection = objectToFollow.position - transform.position;
@@ -39,4 +46,6 @@ public class SimpleCameraController : MonoBehaviour {
     public Vector3 offset;
     public float followSpeed = 10;
     public float lookSpeed = 10;
+    public Mybutton gasPedal;
+    public Mybutton brakePedal;
 }
